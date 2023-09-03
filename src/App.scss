@@ -1,0 +1,198 @@
+body {
+  background: #000;
+  color: #ccc;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+img {
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+span.line {
+  display: inline-block;
+}
+
+a {
+  color: #ccc;
+}
+
+a:hover {
+  color: rgb(88, 177, 255);
+}
+
+.section {
+  margin-top: 10rem;
+}
+
+.logo {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.sectionHeader {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(88, 177, 255);
+  margin-bottom: 4rem;
+}
+
+.skillsetText {
+  font-size: 1.5rem;
+}
+
+#hero {
+  color: #fff;
+  min-height: 70vh;
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 1%, rgba(0,0,0,0) 60%), url('./img/body.webp');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#typewriter {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6) 100%, rgba(0,0,0,0.6) 100%), url('./img/typewriter.webp');
+  
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+#footer {
+  border-top: 1px solid white;
+  text-align: center;
+
+  .logo {
+    max-width: 20vw;
+  }
+
+}
+
+.heroTitle {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+.transparent {
+  color: rgba(255,255,255,0.5);
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: #ccc;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.white {
+  color: #fff;
+}
+
+.contactText {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.socials {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  color: rgba(88, 177, 255, 0.7);
+}
+
+.socials:hover {
+  color: rgb(88, 177, 255);
+}
+
+/* Mobile devices */
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .section {
+    margin-top: 6rem;
+  }
+
+  .logo {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .sectionHeader {
+    text-align: center;
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%), url('./img/body.webp');
+    background-position: center;
+
+    .transparent {
+      color: #bbb;
+    }
+
+  }
+
+  #skillset {
+    span.line {
+      display: inline;
+    }
+  }
+  
+  #footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .logo {
+      max-width: 40vw;
+    }
+
+  }
+
+  .heroTitle {
+    text-shadow: 0 0 1rem #000;
+    margin-top: 16rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+    text-shadow: 0 0 2rem #000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  .skillsetText {
+    font-size: 1.1rem;
+  }
+
+  .skillsetIcons{
+    text-align: center;
+  }
+
+  .contactText {
+    font-size: 1.1rem;
+  }
+
+  .socialContainer {
+    text-align: center;
+  }
+
+  .socials {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+}
