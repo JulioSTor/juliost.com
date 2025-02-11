@@ -14,7 +14,7 @@ function App() {
 
 					<div className="row justify-content-center">
 
-						<div className="col-12 col-sm-10 col-md-6 col-lg-4">
+						<div className="col-10 col-sm-10 col-md-6 col-lg-4">
 
 							<img src={logo} alt="Julio S Torremocha Logo" />
 
@@ -37,7 +37,7 @@ function App() {
 						</h1>
 
 						<p className='heroSubtitle'>
-							I currently work at <a aria-label="Link to Interhyp website" href="https://www.interhyp.de/" target="_blank" rel="noopener noreferrer">
+							I work at <a aria-label="Interhyp Gruppe" href="https://www.interhyp.de/" target="_blank" rel="noopener noreferrer">
 								Interhyp Gruppe</a> as a Software Engineer. I'm really passionate about design, functionality and usability.
 						</p>
 
@@ -46,9 +46,6 @@ function App() {
 						</p>
 
 					</div>
-					
-					<div className="col-12 d-none d-md-block">
-					</div>
 
 				</div>
 
@@ -56,7 +53,7 @@ function App() {
 			
 			<div className="container section" id="skillset">
 
-				<p className="sectionHeader">My Skillset</p>
+				<p className="sectionHeader">Skillset</p>
 
 				<div className="row">
 
@@ -73,11 +70,19 @@ function App() {
 					<div className="col-12 col-md-8">
 
 						<p className="skillsetText">I like everything related to design, functionality and usability. 
-							I enjoy creating effortless user experiences and designing engaging digital products. 
+							I enjoy creating cool user experiences and designing appealing digital products. 
 							I usually look for new opportunities on projects with interesting design systems.
 						</p>
 
 						<div className="skillsetIcons row pt-4">
+
+							<div className="col-2">
+								<i className="fa-brands fa-react fa-2xl"></i>
+							</div>
+
+							<div className="col-2">
+								<i className="fa-brands fa-square-js fa-2xl"></i>
+							</div>
 
 							<div className="col-2">
 								<i className="fa-brands fa-html5 fa-2xl"></i>
@@ -88,15 +93,7 @@ function App() {
 							</div>
 
 							<div className="col-2">
-								<i className="fa-brands fa-square-js fa-2xl"></i>
-							</div>
-
-							<div className="col-2">
 								<i className="fa-brands fa-bootstrap fa-2xl"></i>
-							</div>
-
-							<div className="col-2">
-								<i className="fa-brands fa-react fa-2xl"></i>
 							</div>
 
 							<div className="col-2">
@@ -104,7 +101,6 @@ function App() {
 							</div>
 
 						</div>
-
 
 					</div>
 
@@ -124,9 +120,9 @@ function App() {
 							Interhyp Gruppe<br></br><span className="transparent">Software Engineer</span>
 						</h1>
 							
-						<p className=''>
-							I develop web apps with React and TypeScript, among other technologies.
-						</p>
+						<ul>
+							<li>I develop web apps mainly with React and TypeScript</li>
+						</ul>
 
 					</div>
 
@@ -136,9 +132,9 @@ function App() {
 							Sony Music Entertainment<br></br><span className="transparent">Frontend Developer</span>
 						</h1>
 							
-						<p className=''>
-							I built websites using HTML5, CSS3 and JavaScript as well as Vue/Nuxt.
-						</p>
+						<ul>
+							<li>I built websites using HTML5, CSS3, JavaScript and Vue/Nuxt</li>
+						</ul>
 
 					</div>
 					
@@ -148,9 +144,9 @@ function App() {
 							<span className="line">Solid White Design &</span> <span className="line">Digital Media</span><br></br><span className="transparent">Frontend Developer</span>
 						</h1>
 							
-						<p className=''>
-							I developed web apps using React/Redux, HTML5, CSS3 and JavaScript.
-						</p>
+						<ul>
+							<li>I developed web apps using React/Redux and JavaScript</li>
+						</ul>
 
 					</div>
 					
@@ -160,9 +156,9 @@ function App() {
 							Talleres Sanchez<br></br><span className="transparent">Web Developer, IT Admin</span>
 						</h1>
 							
-						<p className=''>
-							I started working at the family company as a Web Developer and IT Admin.
-						</p>
+						<ul>
+							<li>I worked at the family company as a Web Dev and IT Admin</li>
+						</ul>
 
 					</div>
 
@@ -226,57 +222,58 @@ function App() {
 
 				<p className="sectionHeader">Contact</p>
 
-				<div className="row justify-content-between">
-
-					<div className="col-12 col-md-6">
-
-						<p className='contactText'>
-							Now that you know more about me, please let me know if you are interested in having me in your team :)
-						</p>
-
-						<p className='contactText'>
-							If so, just drop me a line at <a href="mailto:juliostorremocha@gmail.com">juliostorremocha@gmail.com</a>
-						</p>
-
-						<div className="socialContainer">
-
-							<a aria-label="Email link" href="mailto:juliostorremocha@gmail.com">
-								<span className="fa-stack socials">
-									<i className="fa-regular fa-circle fa-stack-2x"></i>
-									<i className="fa-solid fa-envelope fa-stack-1x"></i>
-								</span>
-							</a>
-
-							<a aria-label="LinkedIn link" href="https://www.linkedin.com/in/juliostor" target="_blank" rel="noopener noreferrer">
-								<span className="fa-stack socials">
-									<i className="fa-regular fa-circle fa-stack-2x"></i>
-									<i className="fa-brands fa-linkedin-in fa-stack-1x"></i>
-								</span>
-							</a>
-
-							<a aria-label="Twitter link" href="https://twitter.com/juliostor" target="_blank" rel="noopener noreferrer">
-								<span className="fa-stack socials">
-									<i className="fa-regular fa-circle fa-stack-2x"></i>
-									<i className="fa-brands fa-twitter fa-stack-1x"></i>
-								</span>
-							</a>
-
-							<a aria-label="GitHub link" href="https://github.com/JulioSTor" target="_blank" rel="noopener noreferrer">
-								<span className="fa-stack socials">
-									<i className="fa-regular fa-circle fa-stack-2x"></i>
-									<i className="fa-brands fa-github fa-stack-1x"></i>
-								</span>
-							</a>
-
-						</div>
-
-					</div>
+				<div className="socialContainer row text-center">
 					
-					<div className="d-none d-md-block col-md-6" id="typewriter">
+					<div className="col-2 col-md-4"></div>
+					
+					<div className="col-2 col-md-1 mx-auto">
+
+						<a aria-label="Email link" href="mailto:juliostorremocha@gmail.com">
+							<span className="fa-stack socials">
+								<i className="fa-regular fa-circle fa-stack-2x"></i>
+								<i className="fa-solid fa-envelope fa-stack-1x"></i>
+							</span>
+						</a>
+
 					</div>
+
+					<div className="col-2 col-md-1 mx-auto">
+
+						<a aria-label="LinkedIn link" href="https://www.linkedin.com/in/juliostor" target="_blank" rel="noopener noreferrer">
+							<span className="fa-stack socials">
+								<i className="fa-regular fa-circle fa-stack-2x"></i>
+								<i className="fa-brands fa-linkedin-in fa-stack-1x"></i>
+							</span>
+						</a>
+
+					</div>
+
+					<div className="col-2 col-md-1 mx-auto">
+
+						<a aria-label="X link" href="https://x.com/juliostor" target="_blank" rel="noopener noreferrer">
+							<span className="fa-stack socials">
+								<i className="fa-regular fa-circle fa-stack-2x"></i>
+								<i className="fa-brands fa-x-twitter fa-stack-1x"></i>
+							</span>
+						</a>
+
+					</div>
+
+					<div className="col-2 col-md-1 mx-auto">
+
+						<a aria-label="GitHub link" href="https://github.com/JulioSTor" target="_blank" rel="noopener noreferrer">
+							<span className="fa-stack socials">
+								<i className="fa-regular fa-circle fa-stack-2x"></i>
+								<i className="fa-brands fa-github fa-stack-1x"></i>
+							</span>
+						</a>
+
+					</div>
+
+					<div className="col-2 col-md-4"></div>
 
 				</div>
-
+				
 			</div>
 
 						
@@ -284,7 +281,7 @@ function App() {
 
 				<div className="row align-items-center">
 
-					<div className="col-12 col-md-6">
+					<div className="col-12 col-md-6 mx-auto pt-2">
 
 						<p>
 							Built with ❤️ in Berlin
@@ -292,7 +289,7 @@ function App() {
 
 					</div>
 
-					<div className="col-12 col-md-6">
+					<div className="col-12 col-md-6 mx-auto">
 
 						<img src={logo} alt="Julio S Torremocha Logo" className="logo" />
 
