@@ -33,16 +33,11 @@ function App() {
 					<div className="col-12 col-md-6 col-lg-7">
 						
 						<h1 className='heroTitle'>
-							I'm Julio, a Web Developer <span className="transparent">with 5+ years of experience <br></br>based in Berlin.</span>
+							I'm Julio, a Software Engineer <span className="transparent">with 5+ years of experience <br></br>based in Berlin</span>
 						</h1>
 
 						<p className='heroSubtitle'>
-							I work at <a aria-label="Interhyp Gruppe" href="https://www.interhyp.de/" target="_blank" rel="noopener noreferrer">
-								Interhyp Gruppe</a> as a Software Engineer. I'm really passionate about design, functionality and usability.
-						</p>
-
-						<p className='heroSubtitle'>
-							I speak fluent English, German and Spanish. When I'm not coding, you can probably find me running, climbing or playing guitar.
+							I speak fluent English, German and Spanish. I'm really passionate about design, functionality and usability. When I'm not coding you can probably find me running, climbing or playing guitar.
 						</p>
 
 					</div>
@@ -121,7 +116,7 @@ function App() {
 						</h1>
 							
 						<ul>
-							<li>I develop web apps mainly with React and TypeScript</li>
+							<li>I develop an online platform using React and TypeScript</li>
 						</ul>
 
 					</div>
@@ -133,7 +128,7 @@ function App() {
 						</h1>
 							
 						<ul>
-							<li>I built websites using HTML5, CSS3, JavaScript and Vue/Nuxt</li>
+							<li>I built websites based on HTML5, CSS3, JavaScript and Vue/Nuxt</li>
 						</ul>
 
 					</div>
@@ -281,7 +276,7 @@ function App() {
 
 				<div className="row align-items-center">
 
-					<div className="col-12 col-md-6 mx-auto pt-2">
+					<div className="col-12 col-md-6 mx-auto">
 
 						<p>
 							Built with ❤️ in Berlin
@@ -289,7 +284,7 @@ function App() {
 
 					</div>
 
-					<div className="col-12 col-md-6 mx-auto">
+					<div className="col-12 col-md-6 mx-aut pt-3">
 
 						<img src={logo} alt="Julio S Torremocha Logo" className="logo" />
 
