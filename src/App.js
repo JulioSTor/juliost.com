@@ -4,6 +4,8 @@ import './App.scss';
 
 function App() {
 
+	const yearsOfExperience = new Date().getFullYear() - 2019;
+
 	return (
 
 		<div className="App">
@@ -33,11 +35,11 @@ function App() {
 					<div className="col-12 col-md-6 col-lg-7">
 						
 						<h1 className='heroTitle'>
-							I'm Julio, a Software Engineer <span className="transparent">with 5+ years of experience <br></br>based in Berlin</span>
+							I'm Julio, a Software Engineer <span className="transparent">based in Berlin with {yearsOfExperience} years of experience</span>
 						</h1>
 
 						<p className='heroSubtitle'>
-							I speak fluent English, German and Spanish. I'm really passionate about design, functionality and usability. When I'm not coding you can probably find me running, climbing or playing guitar.
+							My main focus is on Frontend Development, I'm really passionate about design, functionality and usability. I speak fluent English, German and Spanish, and when I'm not coding you can probably find me running, climbing or playing guitar.
 						</p>
 
 					</div>
@@ -64,8 +66,7 @@ function App() {
 
 					<div className="col-12 col-md-8">
 
-						<p className="skillsetText">I like everything related to design, functionality and usability. 
-							I enjoy creating cool user experiences and designing appealing digital products. 
+						<p className="skillsetText">I really enjoy creating cool user experiences and designing appealing digital products. 
 							I usually look for new opportunities on projects with interesting design systems.
 						</p>
 
